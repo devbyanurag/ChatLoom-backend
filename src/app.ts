@@ -4,7 +4,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import connectDB from './database/db';
 import bodyParser from 'body-parser';
-import { router_user } from './routes/user';
+import { router_user } from './routes/User';
 dotenv.config();
 
 const app = express();
